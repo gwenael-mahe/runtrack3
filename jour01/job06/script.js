@@ -17,3 +17,4 @@ function fizzbuzz(){
         i++;
     }
 }
+console.log(fizzbuzz());
