@@ -4,3 +4,4 @@ function afficherjourssemaines(){
         console.log(jourssemaines[i]);
     }
 }
+console.log(afficherjourssemaines());
