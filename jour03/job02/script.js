@@ -1,4 +1,5 @@
 $(function(){
+    var victoire = [];
     $('button').click(function() {
         $('#arc1').appendTo($('#melangees'));
         $('#arc2').appendTo($('#melangees'));
@@ -7,24 +8,202 @@ $(function(){
         $('#arc5').appendTo($('#melangees'));
         $('#arc6').appendTo($('#melangees'));
         shuffleElements( $('img') );
+        if(document.getElementById('victoire') != null){
+            var ele = document.getElementById('victoire');
+            ele.remove();
+        }
+        if(document.getElementById('defaite') != null){
+            var ele = document.getElementById('defaite');
+            ele.remove();
+        }
+        victoire = [];
+        test = 0;
     });
     $('#arc1').click(function() {
         $('#arc1').appendTo($('#rangees'));
+        victoire.push(1);
+        var perfect = [1,2,3,4,5,6];
+        var test = 0;
+        if(victoire.length === 6){
+
+            for (var i = 0; i < perfect.length; ++i) {
+    
+                if (victoire[i] == perfect[i]){
+                    
+                    ++test;
+                    if(test == 6){
+                        var b = document.body;
+                        var newarticle = document.createElement('article');
+                        newarticle.setAttribute("id","victoire")
+                        newarticle.textContent = "Vous avez gagné";
+                        b.append(newarticle);
+                    }
+                }
+                else{
+                     var b = document.body;
+                    var newarticle = document.createElement('article');
+                    newarticle.setAttribute("id","defaite")
+                    newarticle.textContent = "Vous avez perdu";
+                    b.append(newarticle);
+                    break;
+                }
+            }
+        }
+        
     });
     $('#arc2').click(function() {
         $('#arc2').appendTo($('#rangees'));
+        victoire.push(2);
+        var perfect = [1,2,3,4,5,6];
+        var test = 0;
+        if(victoire.length === 6){
+
+            for (var i = 0; i < perfect.length; ++i) {
+    
+                if (victoire[i] == perfect[i]){
+                    
+                    ++test;
+                    if(test == 6){
+                        var b = document.body;
+                        var newarticle = document.createElement('article');
+                        newarticle.setAttribute("id","victoire")
+                        newarticle.textContent = "Vous avez gagné";
+                        b.append(newarticle);
+                    }
+                }
+                else{
+                     var b = document.body;
+                    var newarticle = document.createElement('article');
+                    newarticle.setAttribute("id","defaite")
+                    newarticle.textContent = "Vous avez perdu";
+                    b.append(newarticle);
+                    break;
+                }
+            }
+        }
     });
     $('#arc3').click(function() {
         $('#arc3').appendTo($('#rangees'));
+        victoire.push(3);
+        var perfect = [1,2,3,4,5,6];
+        var test = 0;
+        if(victoire.length === 6){
+
+            for (var i = 0; i < perfect.length; ++i) {
+    
+                if (victoire[i] == perfect[i]){
+                    
+                    ++test;
+                    if(test == 6){
+                        var b = document.body;
+                        var newarticle = document.createElement('article');
+                        newarticle.setAttribute("id","victoire")
+                        newarticle.textContent = "Vous avez gagné";
+                        b.append(newarticle);
+                    }
+                }
+                else{
+                     var b = document.body;
+                    var newarticle = document.createElement('article');
+                    newarticle.setAttribute("id","defaite")
+                    newarticle.textContent = "Vous avez perdu";
+                    b.append(newarticle);
+                    break;
+                }
+            }
+        }
     });
     $('#arc4').click(function() {
         $('#arc4').appendTo($('#rangees'));
+        victoire.push(4);
+        var perfect = [1,2,3,4,5,6];
+        var test = 0;
+        if(victoire.length === 6){
+
+            for (var i = 0; i < perfect.length; ++i) {
+    
+                if (victoire[i] == perfect[i]){
+                    
+                    ++test;
+                    if(test == 6){
+                        var b = document.body;
+                        var newarticle = document.createElement('article');
+                        newarticle.setAttribute("id","victoire")
+                        newarticle.textContent = "Vous avez gagné";
+                        b.append(newarticle);
+                    }
+                }
+                else{
+                     var b = document.body;
+                    var newarticle = document.createElement('article');
+                    newarticle.setAttribute("id","defaite")
+                    newarticle.textContent = "Vous avez perdu";
+                    b.append(newarticle);
+                    break;
+                }
+            }
+        }
     });
     $('#arc5').click(function() {
         $('#arc5').appendTo($('#rangees'));
+        victoire.push(5);
+        var perfect = [1,2,3,4,5,6];
+        var test = 0;
+        if(victoire.length === 6){
+
+            for (var i = 0; i < perfect.length; ++i) {
+    
+                if (victoire[i] == perfect[i]){
+                    
+                    ++test;
+                    if(test == 6){
+                        var b = document.body;
+                        var newarticle = document.createElement('article');
+                        newarticle.setAttribute("id","victoire")
+                        newarticle.textContent = "Vous avez gagné";
+                        b.append(newarticle);
+                    }
+                }
+                else{
+                     var b = document.body;
+                    var newarticle = document.createElement('article');
+                    newarticle.setAttribute("id","defaite")
+                    newarticle.textContent = "Vous avez perdu";
+                    b.append(newarticle);
+                    break;
+                }
+            }
+        }
     });
     $('#arc6').click(function() {
         $('#arc6').appendTo($('#rangees'));
+        victoire.push(6);
+    var perfect = [1,2,3,4,5,6];
+    var test = 0;
+    if(victoire.length === 6){
+        for (var i = 0; i < perfect.length; ++i) {
+
+            if (victoire[i] == perfect[i]){
+                
+                ++test;
+                if(test == 6){
+                    var b = document.body;
+                    var newarticle = document.createElement('article');
+                    newarticle.setAttribute("id","victoire")
+                    newarticle.textContent = "Vous avez gagné";
+                    b.append(newarticle);
+                }
+            }
+            else{
+                 var b = document.body;
+                var newarticle = document.createElement('article');
+                newarticle.setAttribute("id","defaite")
+                newarticle.textContent = "Vous avez perdu";
+                b.append(newarticle);
+                break;
+            }
+        }
+    }
     });
 });
 function shuffleElements($elements) {

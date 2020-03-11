@@ -3,6 +3,14 @@
     <head>
         <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
         <script type="text/javascript" src="script.js"></script>
+        <style>
+            #victoire{
+                color: green;
+            }
+            #defaite{
+                color: red;
+            }
+        </style>
     </head>
     <body>
         <button id="button">Shuffle</button>
