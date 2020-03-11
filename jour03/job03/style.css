@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+}
+div{
+    width: 100px;
+    height: 100px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
