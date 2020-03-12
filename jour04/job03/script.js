@@ -6,19 +6,19 @@ $(document).ready(async function(){
             const select = {id, names, types};
             if(id == $("#id").val()){
                 occurence.push(select);
-                console.log(occurence);
+                //console.log(occurence);
             }
             if($("#name").val() !== null){
                 for(const name of Object.values(names)){
                     if(name.indexOf($("#names").val()) > -1){
                         occurence.push(select);
-                        console.log(occurence);
+                        //console.log(occurence);
                     }
                 }
             }
             if(types.includes($("#type").val())){
                 occurence.push(select);
-                console.log(occurence);
+                //console.log(occurence);
             }
             //console.log(pokemon);
         }
