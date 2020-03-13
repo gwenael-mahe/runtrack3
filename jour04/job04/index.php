@@ -5,6 +5,18 @@
         <script type="text/javascript" src="script.js"></script>
     </head>
     <body>
-        <a href="users.php">Users</a>
+        <button id="afficher">Update</button>
+        <table>
+            <thead>
+                <tr>
+                    <td>ID</td>
+                    <td>Nom</td>
+                    <td>Prénom</td>
+                    <td>Mail</td>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
     </body>
 </html>
