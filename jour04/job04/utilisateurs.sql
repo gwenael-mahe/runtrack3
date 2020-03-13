@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Mar 13, 2020 at 10:07 AM
+-- Generation Time: Mar 13, 2020 at 10:09 AM
 -- Server version: 5.7.26
 -- PHP Version: 7.2.18
 
@@ -19,10 +19,10 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `runtrack03_jour04`
+-- Database: `utilisateurs`
 --
-CREATE DATABASE IF NOT EXISTS `runtrack03_jour04` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `runtrack03_jour04`;
+CREATE DATABASE IF NOT EXISTS `utilisateurs` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `utilisateurs`;
 
 -- --------------------------------------------------------
 
